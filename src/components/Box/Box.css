@@ -1,0 +1,7 @@
+function Box({children}){
+  return (
+    <div>
+    
+    </div>
+    );
+}
