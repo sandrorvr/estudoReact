@@ -1,12 +1,21 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import './App.css'
 
-function App() {
+import Area from './components/Area/Area'
 
+function App() {
+  let locs = [
+    {id:'1', street:'Pituba'},
+    {id:'2', street:'Amaralina'},
+    {id:'3', street:'Ondina'},
+    {id:'4', street:'Mata Escura'},
+    {id:'5', street:'Mata Escura'},
+    {id:'6', street:'Mata Escura'},
+    {id:'7', street:'Mata Escura'},
+    {id:'8', street:'Mata Escura'},
+  ];
   return (
     <div className="App">
-      oi
+      <Area locs={locs}/>
     </div>
   )
 }

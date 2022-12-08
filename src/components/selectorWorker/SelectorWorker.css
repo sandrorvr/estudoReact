@@ -1,0 +1,30 @@
+select{
+    margin-left: 3px;
+    margin-right: 3px;
+    width: 5rem;
+    text-align: center;
+}
+
+.selecPlusbtns{
+    display: flex;
+}
+
+.btns{
+    margin-left: 30px;
+}
+.btns button{
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.btnDel{
+    background-color: brown;
+}
+
+.set-faill{
+    display: none;
+}
+
+.btnSend{
+    background-color: aquamarine;
+}
