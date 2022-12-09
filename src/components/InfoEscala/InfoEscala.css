@@ -1,0 +1,11 @@
+.boxInfoEscola{
+    width: 25%;
+}
+.boxInfoEscola form{
+    display: flex;
+    flex-direction: column;
+}
+
+.boxInfoEscola form button{
+    margin-top: 0.5rem;
+}

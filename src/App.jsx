@@ -1,6 +1,7 @@
 import './App.css'
 
 import Area from './components/Area/Area'
+import InfoEscala from './components/InfoEscala/InfoEscala';
 
 function App() {
   let locs = [
@@ -15,6 +16,7 @@ function App() {
   ];
   return (
     <div className="App">
+      <InfoEscala />
       <Area locs={locs}/>
     </div>
   )
